@@ -94,10 +94,14 @@ main .content .js-wrapper .list-item {
     width: 0;
 }
 
-h1, h2, p, fieldset, h3, a, span, button, input, pre {
+h1, h2, p, h3, a, span, button, input, pre {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     white-space: pre-wrap;
+}
+fieldset {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 pre {
     font-size: 20px;
