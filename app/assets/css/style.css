@@ -97,6 +97,10 @@ main .content .js-wrapper .list-item {
 h1, h2, p, fieldset, h3, a, span, button, input, pre {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    white-space: pre-wrap;
+}
+pre {
+    font-size: 20px;
 }
 
 main {
@@ -307,6 +311,7 @@ main .content {
     flex-direction: column;
     gap: 15px;
     position: relative;
+    cursor: pointer;
 }
 .book-item:active {
     transform: scale(.95);
@@ -321,7 +326,6 @@ main .content {
 }   
 .book-item pre{ 
     font-weight: 500;
-    font-size: 16px;
 }
 .book-item .buttons {
     position: absolute;
