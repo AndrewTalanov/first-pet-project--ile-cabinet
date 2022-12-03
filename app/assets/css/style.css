@@ -428,3 +428,113 @@ fieldset input:focus, fieldset textarea:focus {
 .js-btn-close {
     padding: 10px 30px;
 }
+
+
+@media (max-width: 601px) {
+    main .header {
+        width: 17%;
+        border-radius: 0px 5px 5px 0px;
+    }
+    .header .header-item .header-item-content img{
+        width: 50%;
+    }
+    .header .header-item .header-item-content p{
+        display: none;
+    }
+    .header .header-item .header-item-content span{
+        display: none;
+    }
+
+    .content-header {
+        flex-direction: column;   
+        gap: 10px;
+    }
+    .user-info h2{
+        font-size: 18px;
+    }
+    .content-header button{
+        margin: 0 auto;
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .folders .title-your-folders {
+        font-size: 14px;
+    }
+    
+    .item {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .folders .list-items .item .item-content  {
+        padding: 25px 10px;
+        width: 100%;
+    }
+    .folders .list-items .item .item-content h2 {
+        font-size: 18px;
+    }
+    .folders .list-items .item .item-btns {
+        margin: 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .modal-create-folder {
+        position: fixed;
+        background-color: #fff;
+        border: none;
+        border-radius: 0;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        transform: translate(0%, 0%);
+        padding: 35px 10px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+    }
+    .modal-create-folder .btns {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .book-items {
+        padding-top: 20px;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .book-items h2 {
+        font-size: 18px;
+    }
+    .book-items h3 {
+        font-size: 16px;
+    }
+    .book-items pre {
+        font-size: 14px;
+    }
+    .book-items .buttons {
+        bottom: 10px;
+        right: 10px;
+        gap: 5px;
+    }
+    .book-items .buttons img{
+        width: 90%;
+    }
+
+    .js-sumbit-close {
+        width: 50%;
+        font-size: 12px;
+        padding: 10px;
+    }
+    .js-btn-close {
+        padding: 0;
+        font-size: 12px;
+        padding: 10px;
+        bottom: 10px;
+    }
+}
